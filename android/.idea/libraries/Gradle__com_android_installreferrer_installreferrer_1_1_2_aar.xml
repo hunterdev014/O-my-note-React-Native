@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.installreferrer:installreferrer:1.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.2-all/caches/transforms-2/files-2.1/1092b17b434649c0a95d77506482df47/installreferrer-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.2-all/caches/transforms-2/files-2.1/1092b17b434649c0a95d77506482df47/installreferrer-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.2-all/caches/transforms-2/files-2.1/1092b17b434649c0a95d77506482df47/installreferrer-1.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

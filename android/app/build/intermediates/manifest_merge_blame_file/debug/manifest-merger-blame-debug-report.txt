@@ -1,0 +1,472 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.omynote"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\develop\Projects\App\Archive\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->E:\develop\Projects\App\Archive\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:4:5-66
+12-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:5:5-64
+13-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:6:5-70
+14-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:6:22-68
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:7:5-79
+15-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:8:5-80
+16-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:9:5-80
+17-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:10:5-78
+18-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:10:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.74.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\8af86388699aac544de3ca2d77fa5743\flipper-0.74.0\AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.74.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\8af86388699aac544de3ca2d77fa5743\flipper-0.74.0\AndroidManifest.xml:16:22-73
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:@react-native-firebase_analytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+20-->[:@react-native-firebase_analytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:@react-native-firebase_analytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-68
+21-->[:@react-native-firebase_analytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-65
+22
+23    <uses-feature
+23-->[:react-native-camera] E:\develop\Projects\App\Archive\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+24        android:name="android.hardware.camera"
+24-->[:react-native-camera] E:\develop\Projects\App\Archive\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+25        android:required="false" />
+25-->[:react-native-camera] E:\develop\Projects\App\Archive\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+26    <uses-feature
+26-->[:react-native-camera] E:\develop\Projects\App\Archive\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+27        android:name="android.hardware.camera.autofocus"
+27-->[:react-native-camera] E:\develop\Projects\App\Archive\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+28        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[:react-native-camera] E:\develop\Projects\App\Archive\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\d2f43d14c7cfaef65b2c90adf4659eb2\play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+29-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\d2f43d14c7cfaef65b2c90adf4659eb2\play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
+30-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
+31
+32    <application
+32-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:12:5-45:19
+33        android:name="io.omynote.MainApplication"
+33-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:13:13-44
+34        android:allowBackup="false"
+34-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:16:13-40
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.7.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\bc8d9b7431cdf5d0b21e03267f7a4528\core-1.7.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="true"
+37-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:18:13-47
+38        android:icon="@mipmap/ic_launcher"
+38-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:15:13-47
+39        android:label="@string/app_name"
+39-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:14:13-45
+40        android:supportsRtl="true"
+40-->[com.facebook.android:facebook-android-sdk:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\77322060d9d8bff720501dd4b23f88ba\facebook-android-sdk-9.0.0\AndroidManifest.xml:28:18-44
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme"
+42-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:19:13-44
+43        android:usesCleartextTraffic="true" >
+43-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:17:13-48
+44        <meta-data
+44-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:20:9-107
+45            android:name="com.facebook.sdk.ApplicationId"
+45-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:20:20-65
+46            android:value="@string/facebook_app_id" />
+46-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:20:66-105
+47
+48        <activity
+48-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:22:9-34:20
+49            android:name="io.omynote.MainActivity"
+49-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:23:17-45
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode|layoutDirection|locale|uiMode"
+50-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:25:17-124
+51            android:exported="true"
+51-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:28:17-40
+52            android:label="@string/app_name"
+52-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:24:17-49
+53            android:launchMode="singleTask"
+53-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:27:17-48
+54            android:windowSoftInputMode="adjustResize" >
+54-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:26:17-59
+55            <intent-filter>
+55-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:30:13-33:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:31:17-68
+56-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:31:25-66
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:32:17-75
+58-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:32:27-73
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:35:9-43:20
+62            android:name="com.zoontek.rnbootsplash.RNBootSplashActivity"
+62-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:36:9-69
+63            android:launchMode="singleTask"
+63-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:38:9-40
+64            android:theme="@style/BootTheme" >
+64-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:37:9-41
+65            <intent-filter>
+65-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:39:13-42:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:31:17-68
+66-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:31:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:41:17-77
+68-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:41:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+71-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:44:9-85
+71-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:44:19-83
+72
+73        <meta-data
+73-->[:@react-native-firebase_analytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:36
+74            android:name="firebase_analytics_collection_enabled"
+74-->[:@react-native-firebase_analytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-65
+75            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+75-->[:@react-native-firebase_analytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\analytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-33
+76        <meta-data
+76-->[:@react-native-firebase_crashlytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-16:37
+77            android:name="firebase_crashlytics_collection_enabled"
+77-->[:@react-native-firebase_crashlytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-67
+78            android:value="false" />
+78-->[:@react-native-firebase_crashlytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-34
+79
+80        <provider
+80-->[:@react-native-firebase_crashlytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-22:38
+81            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+81-->[:@react-native-firebase_crashlytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-104
+82            android:authorities="io.omynote.reactnativefirebasecrashlyticsinitprovider"
+82-->[:@react-native-firebase_crashlytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-94
+83            android:exported="false"
+83-->[:@react-native-firebase_crashlytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+84            android:initOrder="98" />
+84-->[:@react-native-firebase_crashlytics] E:\develop\Projects\App\Archive\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-35
+85
+86        <meta-data
+86-->[:@sentry_react-native] E:\develop\Projects\App\Archive\node_modules\@sentry\react-native\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-17:37
+87            android:name="io.sentry.auto-init"
+87-->[:@sentry_react-native] E:\develop\Projects\App\Archive\node_modules\@sentry\react-native\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+88            android:value="false" />
+88-->[:@sentry_react-native] E:\develop\Projects\App\Archive\node_modules\@sentry\react-native\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-34
+89
+90        <provider
+90-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+91            android:name="com.imagepicker.ImagePickerProvider"
+91-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-63
+92            android:authorities="io.omynote.imagepickerprovider"
+92-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-71
+93            android:exported="false"
+93-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+94            android:grantUriPermissions="true" >
+94-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+95            <meta-data
+95-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:70
+96                android:name="android.support.FILE_PROVIDER_PATHS"
+96-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+97                android:resource="@xml/imagepicker_provider_paths" />
+97-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+98        </provider>
+99        <provider
+99-->[:react-native-share] E:\develop\Projects\App\Archive\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+100            android:name="cl.json.RNShareFileProvider"
+100-->[:react-native-share] E:\develop\Projects\App\Archive\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-55
+101            android:authorities="io.omynote.rnshare.fileprovider"
+101-->[:react-native-share] E:\develop\Projects\App\Archive\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-72
+102            android:exported="false"
+102-->[:react-native-share] E:\develop\Projects\App\Archive\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+103            android:grantUriPermissions="true" >
+103-->[:react-native-share] E:\develop\Projects\App\Archive\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+104            <meta-data
+104-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:70
+105                android:name="android.support.FILE_PROVIDER_PATHS"
+105-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+106                android:resource="@xml/share_download_paths" />
+106-->[:react-native-image-picker] E:\develop\Projects\App\Archive\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+107        </provider>
+108
+109        <activity
+109-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:30:9-33:66
+110            android:name="com.facebook.FacebookActivity"
+110-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:31:13-57
+111            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+111-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:32:13-96
+112            android:theme="@style/com_facebook_activity_theme" />
+112-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:33:13-63
+113        <activity android:name="com.facebook.CustomTabMainActivity" />
+113-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:34:9-71
+113-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:34:19-68
+114        <activity
+114-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:35:9-49:20
+115            android:name="com.facebook.CustomTabActivity"
+115-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:36:13-58
+116            android:exported="true" >
+116-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:37:13-36
+117            <intent-filter>
+117-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:39:13-48:29
+118                <action android:name="android.intent.action.VIEW" />
+118-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:40:17-69
+118-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:40:25-66
+119
+120                <category android:name="android.intent.category.DEFAULT" />
+120-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:32:17-75
+120-->E:\develop\Projects\App\Archive\android\app\src\main\AndroidManifest.xml:32:27-73
+121                <category android:name="android.intent.category.BROWSABLE" />
+121-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:43:17-78
+121-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:43:27-75
+122
+123                <data
+123-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:45:17-47:50
+124                    android:host="cct.io.omynote"
+124-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:46:21-56
+125                    android:scheme="fbconnect" />
+125-->[com.facebook.android:facebook-common:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\6d5b51c23e183cc8fdaba0f0663f85d9\facebook-common-9.0.0\AndroidManifest.xml:47:21-47
+126            </intent-filter>
+127        </activity>
+128        <!--
+129         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+130         with the application context. This config is merged in with the host app's manifest,
+131         but there can only be one provider with the same authority activated at any given
+132         point; so if the end user has two or more different apps that use Facebook SDK, only the
+133         first one will be able to use the provider. To work around this problem, we use the
+134         following placeholder in the authority to identify each host application as if it was
+135         a completely different provider.
+136        -->
+137        <provider
+137-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:39:9-42:40
+138            android:name="com.facebook.internal.FacebookInitProvider"
+138-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:40:13-70
+139            android:authorities="io.omynote.FacebookInitProvider"
+139-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:41:13-72
+140            android:exported="false" />
+140-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:42:13-37
+141
+142        <receiver
+142-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:44:9-50:20
+143            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+143-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:45:13-86
+144            android:exported="false" >
+144-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:46:13-37
+145            <intent-filter>
+145-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:47:13-49:29
+146                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+146-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:48:17-95
+146-->[com.facebook.android:facebook-core:9.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\7d8e07e30cbaef4217241e2e10e7ec2e\jetified-facebook-core-9.0.0\AndroidManifest.xml:48:25-92
+147            </intent-filter>
+148        </receiver>
+149
+150        <activity
+150-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+151            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+151-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+152            android:excludeFromRecents="true"
+152-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+155        <!--
+156            Service handling Google Sign-In user revocation. For apps that do not integrate with
+157            Google Sign-In, this service will never be started.
+158        -->
+159        <service
+159-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+160            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+160-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+161            android:exported="true"
+161-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+162            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+162-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+163            android:visibleToInstantApps="true" />
+163-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\3918382dfdf7ccc4ffcf8ae63c44ba0e\play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+164
+165        <meta-data
+165-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\da5d01e74cedd862f6ebfb1a9c837215\okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+166            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+166-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\da5d01e74cedd862f6ebfb1a9c837215\okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+167            android:value="GlideModule" />
+167-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\da5d01e74cedd862f6ebfb1a9c837215\okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+168
+169        <activity
+169-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\1e73f6eaa618e3c534182fbdf89961ca\play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+170            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+170-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\1e73f6eaa618e3c534182fbdf89961ca\play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+171            android:exported="false"
+171-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\1e73f6eaa618e3c534182fbdf89961ca\play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+172-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\1e73f6eaa618e3c534182fbdf89961ca\play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+173
+174        <service
+174-->[com.google.firebase:firebase-crashlytics-ndk:17.4.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\478ae7da63e42b07cdf47ab91d9d8e38\firebase-crashlytics-ndk-17.4.1\AndroidManifest.xml:32:9-38:19
+175            android:name="com.google.firebase.components.ComponentDiscoveryService"
+175-->[com.google.firebase:firebase-crashlytics-ndk:17.4.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\478ae7da63e42b07cdf47ab91d9d8e38\firebase-crashlytics-ndk-17.4.1\AndroidManifest.xml:33:13-84
+176            android:directBootAware="true"
+176-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+177            android:exported="false" >
+177-->[com.google.firebase:firebase-crashlytics-ndk:17.4.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\478ae7da63e42b07cdf47ab91d9d8e38\firebase-crashlytics-ndk-17.4.1\AndroidManifest.xml:34:13-37
+178            <meta-data
+178-->[com.google.firebase:firebase-crashlytics-ndk:17.4.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\478ae7da63e42b07cdf47ab91d9d8e38\firebase-crashlytics-ndk-17.4.1\AndroidManifest.xml:35:13-37:85
+179                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+179-->[com.google.firebase:firebase-crashlytics-ndk:17.4.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\478ae7da63e42b07cdf47ab91d9d8e38\firebase-crashlytics-ndk-17.4.1\AndroidManifest.xml:36:17-122
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-crashlytics-ndk:17.4.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\478ae7da63e42b07cdf47ab91d9d8e38\firebase-crashlytics-ndk-17.4.1\AndroidManifest.xml:37:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-crashlytics:17.4.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\a13f71b5131d2c33228fd495b7bec8c8\firebase-crashlytics-17.4.1\AndroidManifest.xml:18:13-20:85
+182                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+182-->[com.google.firebase:firebase-crashlytics:17.4.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\a13f71b5131d2c33228fd495b7bec8c8\firebase-crashlytics-17.4.1\AndroidManifest.xml:19:17-115
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-crashlytics:17.4.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\a13f71b5131d2c33228fd495b7bec8c8\firebase-crashlytics-17.4.1\AndroidManifest.xml:20:17-82
+184            <meta-data
+184-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\b53580f2199f1841d2e507ed861ae1c1\play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
+185                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+185-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\b53580f2199f1841d2e507ed861ae1c1\play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\b53580f2199f1841d2e507ed861ae1c1\play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\50400997b8bd74d0121fa18700b52115\firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+188                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+188-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\50400997b8bd74d0121fa18700b52115\firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\50400997b8bd74d0121fa18700b52115\firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+190            <!--
+191                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+192                clients to use it as well, by defining this registrar in their own core/common library.
+193            -->
+194            <meta-data
+194-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+195                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+195-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+197        </service>
+198
+199        <provider
+199-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+200            android:name="com.google.firebase.provider.FirebaseInitProvider"
+200-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+201            android:authorities="io.omynote.firebaseinitprovider"
+201-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+202            android:directBootAware="true"
+202-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+203            android:exported="false"
+203-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+204            android:initOrder="100" />
+204-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\902444d778f762c7ddfc66e88b23d321\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+205
+206        <receiver
+206-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
+207            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+207-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
+208            android:enabled="true"
+208-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
+209            android:exported="false" >
+209-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
+210        </receiver>
+211
+212        <service
+212-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
+213            android:name="com.google.android.gms.measurement.AppMeasurementService"
+213-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
+214            android:enabled="true"
+214-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
+215            android:exported="false" />
+215-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
+216        <service
+216-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
+217            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+217-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
+218            android:enabled="true"
+218-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
+219            android:exported="false"
+219-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
+220            android:permission="android.permission.BIND_JOB_SERVICE" />
+220-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\5f96ccc7e71823dab30dc68d57b419d6\play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
+221
+222        <meta-data
+222-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\f52a563994abbdd3ad4e8eb4cb8e1438\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+223            android:name="com.google.android.gms.version"
+223-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\f52a563994abbdd3ad4e8eb4cb8e1438\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+224            android:value="@integer/google_play_services_version" />
+224-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\f52a563994abbdd3ad4e8eb4cb8e1438\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+225
+226        <provider
+226-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491d5fb29bc1c5085943dbbc34613f4b\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+227            android:name="androidx.startup.InitializationProvider"
+227-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491d5fb29bc1c5085943dbbc34613f4b\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+228            android:authorities="io.omynote.androidx-startup"
+228-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491d5fb29bc1c5085943dbbc34613f4b\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+229            android:exported="false" >
+229-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491d5fb29bc1c5085943dbbc34613f4b\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+230            <meta-data
+230-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491d5fb29bc1c5085943dbbc34613f4b\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+231                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+231-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491d5fb29bc1c5085943dbbc34613f4b\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+232                android:value="androidx.startup" />
+232-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491d5fb29bc1c5085943dbbc34613f4b\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+233            <meta-data
+233-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\669368d24d884bc463cf39f46b599c21\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+234                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+234-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\669368d24d884bc463cf39f46b599c21\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+235                android:value="androidx.startup" />
+235-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\669368d24d884bc463cf39f46b599c21\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+236        </provider> <!-- 'android:authorities' must be unique in the device, across all apps -->
+237        <provider
+237-->[io.sentry:sentry-android-core:2.3.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\b096502948db20328b6300943c050725\jetified-sentry-android-core-2.3.1\AndroidManifest.xml:16:9-19:40
+238            android:name="io.sentry.android.core.SentryInitProvider"
+238-->[io.sentry:sentry-android-core:2.3.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\b096502948db20328b6300943c050725\jetified-sentry-android-core-2.3.1\AndroidManifest.xml:17:13-69
+239            android:authorities="io.omynote.SentryInitProvider"
+239-->[io.sentry:sentry-android-core:2.3.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\b096502948db20328b6300943c050725\jetified-sentry-android-core-2.3.1\AndroidManifest.xml:18:13-70
+240            android:exported="false" />
+240-->[io.sentry:sentry-android-core:2.3.1] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\b096502948db20328b6300943c050725\jetified-sentry-android-core-2.3.1\AndroidManifest.xml:19:13-37
+241
+242        <service
+242-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491a95e61b1581d7aeb628f9d39e6594\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+243            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+243-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491a95e61b1581d7aeb628f9d39e6594\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+244            android:exported="false" >
+244-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491a95e61b1581d7aeb628f9d39e6594\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+245            <meta-data
+245-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491a95e61b1581d7aeb628f9d39e6594\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+246                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+246-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491a95e61b1581d7aeb628f9d39e6594\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+247                android:value="cct" />
+247-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\491a95e61b1581d7aeb628f9d39e6594\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+248        </service>
+249        <service
+249-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\21ac33ac4bc2be22167e1e7eee204aaa\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+250            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+250-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\21ac33ac4bc2be22167e1e7eee204aaa\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+251            android:exported="false"
+251-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\21ac33ac4bc2be22167e1e7eee204aaa\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+252            android:permission="android.permission.BIND_JOB_SERVICE" >
+252-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\21ac33ac4bc2be22167e1e7eee204aaa\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+253        </service>
+254
+255        <receiver
+255-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\21ac33ac4bc2be22167e1e7eee204aaa\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+256            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+256-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\21ac33ac4bc2be22167e1e7eee204aaa\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+257            android:exported="false" />
+257-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Hunter\.gradle\wrapper\dists\gradle-6.2-all\caches\transforms-2\files-2.1\21ac33ac4bc2be22167e1e7eee204aaa\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+258    </application>
+259
+260</manifest>
